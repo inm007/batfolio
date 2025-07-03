@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iba Nicolas Dialo | Creative Dev Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Fira+Code:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+    <!-- Navigation Floating Glass -->
+    <nav class="navbar glass-nav">
+      <div class="container">
+        <a href="#" class="logo">
+  <svg width="54" height="44" viewBox="0 0 54 44" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;"><ellipse cx="27" cy="22" rx="26" ry="20" fill="#181818"/><path d="M6 30 Q27 6 48 30 Q40 19 27 24 Q14 19 6 30 Z" fill="#ffe600" stroke="#232323" stroke-width="2"/><ellipse cx="27" cy="25" rx="5" ry="2.5" fill="#232323"/></svg>
+  <span>Batman Dev</span>
+</a>
+<!-- Bat-signal SVG top right -->
+<div style="position:absolute;top:-30px;right:3vw;z-index:9;">
+  <svg width="90" height="60" viewBox="0 0 90 60"><ellipse cx="65" cy="22" rx="18" ry="10" fill="#ffe600" opacity="0.5"/><path d="M63 12 Q65 7 67 12 Q70 15 67 18 Q65 23 63 18 Q60 15 63 12 Z" fill="#232323"/></svg>
+</div>
+        <ul class="nav-links">
+  <li><a href="#about">À propos</a></li>
+  <li><a href="#skills">Compétences</a></li>
+  <li><a href="#projects">Projets</a></li>
+  <li><a href="#uiux">UI/UX</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="batcave.html"><span class="bat-icon"><svg width="18" height="18" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="10" ry="8" fill="#232323"/><rect x="8" y="7" width="6" height="8" rx="2" fill="#ffe600"/></svg></span>Batcave</a></li>
+  <li><a href="gotham-projects.html"><span class="bat-icon"><svg width="18" height="18" viewBox="0 0 22 22"><rect x="3" y="8" width="16" height="10" rx="2" fill="#232323"/><rect x="7" y="5" width="8" height="5" rx="2" fill="#ffe600"/></svg></span>Gotham Projects</a></li>
+  <li><a href="allies.html"><span class="bat-icon"><svg width="18" height="18" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="10" ry="8" fill="#ffe600"/><ellipse cx="11" cy="11" rx="5" ry="3" fill="#232323"/></svg></span>Alliés</a></li>
+  <li><a href="batsignal.html"><span class="bat-icon"><svg width="18" height="18" viewBox="0 0 22 22"><ellipse cx="11" cy="10" rx="10" ry="6" fill="#ffe600" opacity="0.8"/><path d="M8 11 Q12 5 16 11 Q14 8 12 9 Q10 8 8 11 Z" fill="#232323"/></svg></span>Bat-Signal</a></li>
+</ul>
+      </div>
+    </nav>
+    <!-- Hero Section Fullscreen with Glass, Blobs, Avatar and Animated Text -->
+    <header class="hero hero-full glass-hero">
+      <div class="hero-blobs">
+        <svg class="blob1" width="420" height="320" viewBox="0 0 420 320"><defs><linearGradient id="g1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#48bfe3"/><stop offset="100%" stop-color="#5e60ce"/></linearGradient></defs><ellipse cx="210" cy="160" rx="190" ry="120" fill="url(#g1)" opacity="0.20"/></svg>
+        <svg class="blob2" width="260" height="180" viewBox="0 0 260 180"><ellipse cx="130" cy="90" rx="110" ry="70" fill="#fff" opacity="0.09"/></svg>
+      </div>
+      <div class="hero-inner">
+        <div class="hero-avatar">
+          <svg width="120" height="120" viewBox="0 0 120 120"><circle cx="60" cy="60" r="55" fill="#fff" opacity="0.7"/><circle cx="60" cy="60" r="50" fill="#5e60ce" opacity="0.15"/><text x="50%" y="56%" text-anchor="middle" fill="#5e60ce" font-size="48" font-family="Fira Code, monospace" dy=".3em">👨‍💻</text></svg>
+        </div>
+        <div class="hero-content">
+          <div class="comic-bubble pow">
+  <svg width="120" height="60" viewBox="0 0 120 60"><polygon points="10,30 20,10 40,15 50,2 65,18 85,5 90,25 110,30 90,35 100,55 80,50 70,58 55,42 35,55 30,35 10,30" fill="#ffe600" stroke="#232323" stroke-width="3"/><text x="50%" y="60%" text-anchor="middle" fill="#232323" font-size="20" font-family="Impact, Arial Black, Montserrat Black, Arial, sans-serif" dy=".3em">POW!</text></svg>
+</div>
+<h1 class="hero-title">Iba Nicolas Dialo</h1>
+          <div class="typed-subtitle">
+            <span id="typed-text"></span>
+            <span class="typed-cursor">|</span>
+          </div>
+          <blockquote class="hero-quote">« Créer des outils numériques qui transforment vos idées en solutions concrètes. »</blockquote>
+          <span class="comic-bubble pow-small">
+  <svg width="70" height="32" viewBox="0 0 70 32"><polygon points="5,16 10,3 22,7 29,2 38,12 52,4 55,15 65,16 55,18 60,29 48,26 39,30 32,20 18,29 15,18 5,16" fill="#ffe600" stroke="#232323" stroke-width="2"/><text x="50%" y="60%" text-anchor="middle" fill="#232323" font-size="13" font-family="Impact, Arial Black, Montserrat Black, Arial, sans-serif" dy=".3em">POW!</text></svg>
+</span>
+<a href="#projects" class="cta-main comic-bubble bam">
+  <svg width="110" height="54" viewBox="0 0 110 54"><polygon points="10,27 19,7 36,13 49,2 65,16 84,5 92,23 106,27 92,31 98,49 80,45 66,52 54,38 36,49 29,31 10,27" fill="#ffe600" stroke="#232323" stroke-width="3"/><text x="50%" y="60%" text-anchor="middle" fill="#232323" font-size="18" font-family="Impact, Arial Black, Montserrat Black, Arial, sans-serif" dy=".3em">BAM!</text></svg>
+  Découvrir mes projets
+</a>
+        </div>
+      </div>
+      <div id="particles-js"></div>
+    </header>
+    <main>
+        <!-- À propos -->
+        <section class="about" id="about">
+          <svg class="section-wave" viewBox="0 0 1440 60"><path fill="#48bfe3" fill-opacity="0.12" d="M0,32L80,37.3C160,43,320,53,480,53.3C640,53,800,43,960,37.3C1120,32,1280,32,1360,32L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+          <h2>🎓 À propos de moi</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <p>Étudiant en <strong>Génie Informatique</strong>, passionné par le <strong>développement d'applications web</strong>, j’ai concrétisé plusieurs projets professionnels mêlant <strong>analyse de besoins, développement full-stack, sécurité, UI/UX et déploiement</strong>.<br>
+              Je travaille selon une <strong>logique MVP</strong> centrée sur l’utilisateur final, en m’appuyant sur des <strong>cahiers des charges clairs</strong>, des <strong>structures de données optimisées</strong> et une <strong>expérience utilisateur fluide</strong>.<br>
+              Je suis à l’aise aussi bien dans le développement back-end (Laravel/MySQL) que front-end (React.js, Livewire, Bootstrap), avec une réelle sensibilité UX/UI.</p>
+            </div>
+            <div class="about-svg">
+              <svg width="140" height="140" viewBox="0 0 140 140"><circle cx="70" cy="70" r="65" fill="#e3f6f5" stroke="#48bfe3" stroke-width="5"/><text x="50%" y="54%" text-anchor="middle" fill="#5e60ce" font-size="28" font-family="Fira Code, monospace" dy=".3em">👨‍💻</text></svg>
+            </div>
+          </div>
+        </section>
+        <!-- Compétences -->
+        <section class="skills" id="skills">
+          <svg class="section-wave flip" viewBox="0 0 1440 60"><path fill="#5e60ce" fill-opacity="0.08" d="M0,32L80,37.3C160,43,320,53,480,53.3C640,53,800,43,960,37.3C1120,32,1280,32,1360,32L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+          <div class="comic-bubble wow">
+  <svg width="110" height="54" viewBox="0 0 110 54"><polygon points="10,27 19,7 36,13 49,2 65,16 84,5 92,23 106,27 92,31 98,49 80,45 66,52 54,38 36,49 29,31 10,27" fill="#ffe600" stroke="#232323" stroke-width="3"/><text x="50%" y="60%" text-anchor="middle" fill="#232323" font-size="18" font-family="Impact, Arial Black, Montserrat Black, Arial, sans-serif" dy=".3em">WOW!</text></svg>
+</div>
+<h2>🛠️ Compétences techniques</h2>
+          <div class="skills-grid">
+            <table>
+              <tr><th>Domaine</th><th>Compétences</th></tr>
+              <tr><td><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><path d="M2 11 Q7 7 11 11 Q15 15 20 11 Q15 9 11 11 Q7 13 2 11 Z" fill="#ffe600" stroke="#232323" stroke-width="1.5"/></svg></span> <b>Langages</b></td><td>PHP, JavaScript, SQL, HTML5, CSS3</td></tr>
+              <tr><td><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><circle cx="11" cy="11" r="10" fill="#232323"/><rect x="7" y="7" width="8" height="8" rx="2" fill="#ffe600"/></svg></span> <b>Frameworks & Bibliothèques</b></td><td>Laravel, Livewire, React.js, Bootstrap</td></tr>
+              <tr><td><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><rect x="4" y="7" width="14" height="8" rx="3" fill="#232323"/><ellipse cx="11" cy="11" rx="6" ry="3" fill="#ffe600"/></svg></span> <b>Base de données</b></td><td>MySQL (Workbench), relations, index, contraintes</td></tr>
+              <tr><td><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><rect x="4" y="10" width="14" height="4" rx="2" fill="#232323"/><rect x="7" y="6" width="8" height="4" rx="2" fill="#ffe600"/></svg></span> <b>Outils</b></td><td>XAMPP, Contabo VPS, Figma, Git, Canva</td></tr>
+              <tr><td><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="10" ry="10" fill="#232323"/><rect x="8" y="7" width="6" height="8" rx="2" fill="#ffe600"/></svg></span> <b>Sécurité</b></td><td>Hashage, 2FA, CAPTCHA, validation email/téléphone</td></tr>
+              <tr><td><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="9" ry="7" fill="#ffe600"/><rect x="8" y="7" width="6" height="8" rx="2" fill="#232323"/></svg></span> <b>Conception</b></td><td>Modélisation MCD/MPD, cahier des charges fonctionnel</td></tr>
+              <tr><td><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="10" ry="8" fill="#232323"/><ellipse cx="11" cy="11" rx="5" ry="3" fill="#ffe600"/></svg></span> <b>UX/UI</b></td><td>Figma, personas, scénarios d’usage, responsive design</td></tr>
+            </table>
+          </div>
+        </section>
+        <!-- Méthodologie Timeline -->
+        <section class="methodology" id="methodology">
+          <svg class="section-wave" viewBox="0 0 1440 60"><path fill="#4361ee" fill-opacity="0.07" d="M0,32L80,37.3C160,43,320,53,480,53.3C640,53,800,43,960,37.3C1120,32,1280,32,1360,32L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+          <h2>🧠 Méthodologie & qualités personnelles</h2>
+          <div class="timeline">
+            <div class="timeline-item"><span>1</span> Analyse fonctionnelle des besoins utilisateurs</div>
+            <div class="timeline-item"><span>2</span> Rédaction de <b>cahiers des charges détaillés</b></div>
+            <div class="timeline-item"><span>3</span> Conception <b>orientée base de données optimisée</b></div>
+            <div class="timeline-item"><span>4</span> Approche MVP, puis ajout progressif des fonctionnalités</div>
+            <div class="timeline-item"><span>5</span> Sens du détail, de l’ergonomie, de la sécurité</div>
+            <div class="timeline-item"><span>6</span> Respect des deadlines, communication claire</div>
+          </div>
+        </section>
+        <!-- Projets -->
+        <section class="projects" id="projects">
+          <svg class="section-wave flip" viewBox="0 0 1440 60"><path fill="#48bfe3" fill-opacity="0.10" d="M0,32L80,37.3C160,43,320,53,480,53.3C640,53,800,43,960,37.3C1120,32,1280,32,1360,32L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+          <h2>💼 Projets réalisés</h2>
+          <div class="projects-grid">
+            <div class="project-card">
+              <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=600&q=80" alt="Dashboard CRM prospection"/>
+              <div class="project-content">
+                <h3><span class="bat-icon"> <svg width="22" height="22" viewBox="0 0 22 22"><rect x="3" y="8" width="16" height="10" rx="2" fill="#232323"/><rect x="7" y="5" width="8" height="5" rx="2" fill="#ffe600"/></svg></span> CRM de Prospection Commerciale</h3>
+                <span class="badges"><span class="badge">Laravel</span><span class="badge">Livewire</span><span class="badge">MySQL</span><span class="badge">Bootstrap</span></span>
+                <p>Outil interne pour commerciaux : gestion prospects, actions, devis, relances, KPI, rôles, journalisation, transfert prospects.</p>
+                <a href="#" class="project-link">Voir plus</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="https://images.pexels.com/photos/5632402/pexels-photo-5632402.jpeg?auto=compress&w=600" alt="Boutique e-commerce moderne"/>
+              <div class="project-content">
+                <h3><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><rect x="4" y="9" width="14" height="7" rx="2" fill="#232323"/><rect x="8" y="4" width="6" height="6" rx="2" fill="#ffe600"/></svg></span> Site E-commerce Minimaliste</h3>
+                <span class="badges"><span class="badge">Laravel</span><span class="badge">Livewire</span><span class="badge">MySQL</span><span class="badge">Bootstrap</span></span>
+                <p>Application simple de gestion de boutique : CRUD produits, commandes, paiement, interface sobre, BDD optimisée.</p>
+                <a href="#" class="project-link">Voir plus</a>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&w=600" alt="Mockup Figma UI design system"/>
+              <div class="project-content">
+                <h3><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="10" ry="8" fill="#ffe600"/><rect x="8" y="7" width="6" height="8" rx="2" fill="#232323"/></svg></span> StockManager Pro (Mockup Figma)</h3>
+                <span class="badges"><span class="badge">Figma</span><span class="badge">UI/UX</span></span>
+                <p>Maquette UI complète : accueil, connexion, inscription, récupération mot de passe, logo personnalisé.</p>
+                <a href="#" class="project-link">Voir plus</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- UI/UX Carrousel -->
+        <section class="uiux" id="uiux">
+          <svg class="section-wave" viewBox="0 0 1440 60"><path fill="#4361ee" fill-opacity="0.08" d="M0,32L80,37.3C160,43,320,53,480,53.3C640,53,800,43,960,37.3C1120,32,1280,32,1360,32L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+          <h2>🖼️ UI/UX & Ergonomie</h2>
+<p class="carousel-desc">Création d'interfaces élégantes, intuitives et centrées utilisateur. Chaque projet UI/UX est pensé pour marquer les esprits et transformer l'expérience digitale.</p>
+<div class="carousel glass-carousel">
+  <div class="carousel-track">
+    <div class="carousel-item"><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><path d="M5 17 Q11 3 17 17 Q14 13 11 15 Q8 13 5 17 Z" fill="#ffe600" stroke="#232323" stroke-width="1.2"/></svg></span><img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=600" alt="UI Dashboard moderne"></div>
+    <div class="carousel-item"><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="10" ry="8" fill="#232323"/><ellipse cx="11" cy="11" rx="5" ry="3" fill="#ffe600"/></svg></span><img src="https://images.pexels.com/photos/11035371/pexels-photo-11035371.jpeg?auto=compress&w=600" alt="Mobile app UI design"></div>
+    <div class="carousel-item"><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="10" ry="8" fill="#ffe600"/><rect x="8" y="7" width="6" height="8" rx="2" fill="#232323"/></svg></span><img src="https://images.pexels.com/photos/6476588/pexels-photo-6476588.jpeg?auto=compress&w=600" alt="Wireframe Figma project"></div>
+  </div>
+  <button class="carousel-btn left" aria-label="Précédent">&#8592;</button>
+  <button class="carousel-btn right" aria-label="Suivant">&#8594;</button>
+  <div class="carousel-dots"></div>
+</div>
+          <ul class="uiux-list">
+            <li>Personas, scénarios d’usage, maquettes Figma</li>
+            <li>Quiz avancé UI/UX pour valider compréhension ergonomie</li>
+            <li>Navigation, responsive design, feedback visuel</li>
+          </ul>
+        </section>
+        <!-- Contact Form -->
+        <section class="contact" id="contact">
+          <svg class="section-wave flip" viewBox="0 0 1440 60"><path fill="#48bfe3" fill-opacity="0.12" d="M0,32L80,37.3C160,43,320,53,480,53.3C640,53,800,43,960,37.3C1120,32,1280,32,1360,32L1440,32L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path></svg>
+          <div class="comic-bubble bam">
+  <svg width="110" height="54" viewBox="0 0 110 54"><polygon points="10,27 19,7 36,13 49,2 65,16 84,5 92,23 106,27 92,31 98,49 80,45 66,52 54,38 36,49 29,31 10,27" fill="#ffe600" stroke="#232323" stroke-width="3"/><text x="50%" y="60%" text-anchor="middle" fill="#232323" font-size="18" font-family="Impact, Arial Black, Montserrat Black, Arial, sans-serif" dy=".3em">BAM!</text></svg>
+</div>
+<h2>📞 Contact</h2>
+          <div class="contact-cards">
+            <div class="contact-card"><span class="bat-icon"> <!-- Bat-signal --> <svg width="24" height="24" viewBox="0 0 24 24"><ellipse cx="12" cy="10" rx="10" ry="6" fill="#ffe600" opacity="0.8"/><path d="M8 11 Q12 5 16 11 Q14 8 12 9 Q10 8 8 11 Z" fill="#232323"/></svg></span><b>Email</b><span><a href="mailto:narutodialo3@gmail.com">narutodialo3@gmail.com</a></span></div>
+            <div class="contact-card"><span class="bat-icon"> <!-- Batphone --> <svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="11" ry="11" fill="#232323"/><rect x="6" y="9" width="10" height="4" rx="2" fill="#ffe600"/><rect x="8" y="13" width="6" height="2" rx="1" fill="#ffe600"/></svg></span><b>Téléphone</b><span><a href="tel:772465688">772465688</a></span></div>
+            <div class="contact-card"><span class="bat-icon"> <!-- Batarang LinkedIn --> <svg width="22" height="22" viewBox="0 0 22 22"><path d="M2 11 Q7 7 11 11 Q15 15 20 11 Q15 9 11 11 Q7 13 2 11 Z" fill="#ffe600" stroke="#232323" stroke-width="1.5"/></svg></span><b>LinkedIn</b><span><a href="https://www.linkedin.com/in/iba-nicolas-dialo-07a834356?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">Profil</a></span></div>
+            <div class="contact-card"><span class="bat-icon"> <!-- Bat-logo GitHub --> <svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="11" rx="10" ry="8" fill="#ffe600"/><path d="M4 13 Q11 5 18 13 Q15 9 11 11 Q7 9 4 13 Z" fill="#232323"/></svg></span><b>GitHub</b><span><a href="https://github.com/inm007" target="_blank">inm007</a></span></div>
+            <div class="contact-card"><span class="bat-icon"> <!-- Gotham Map --> <svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="18" rx="6" ry="3" fill="#ffe600" opacity="0.5"/><rect x="8" y="9" width="6" height="8" rx="2" fill="#232323"/><rect x="10" y="5" width="2" height="6" rx="1" fill="#ffe600"/></svg></span><b>Localisation</b><span>Sénégal</span></div>
+            <div class="contact-card"><span class="bat-icon"> <!-- Batmobile --> <svg width="28" height="18" viewBox="0 0 28 18"><rect x="2" y="8" width="18" height="5" rx="2.5" fill="#232323"/><ellipse cx="6" cy="15" rx="2" ry="2" fill="#ffe600"/><ellipse cx="18" cy="15" rx="2" ry="2" fill="#ffe600"/><rect x="20" y="10" width="6" height="2" rx="1" fill="#ffe600"/></svg></span><b>Disponibilité</b><span>Freelance, stages, CDD/CDI</span></div>
+          </div>
+        </section>
+        <!-- Particles.js -->
+        <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+        <script>
+        // Fallback config si particles.json absent
+        particlesJS('particles-js', {
+          particles: {
+            number: { value: 36 },
+            color: { value: '#5e60ce' },
+            shape: { type: 'circle' },
+            opacity: { value: 0.18 },
+            size: { value: 4 },
+            line_linked: { enable: true, distance: 120, color: '#48bfe3', opacity: 0.18, width: 1 },
+            move: { enable: true, speed: 1.1 }
+          },
+          interactivity: {
+            events: { onhover: { enable: true, mode: 'repulse' } },
+            modes: { repulse: { distance: 90, duration: 0.4 } }
+          }
+        });
+        </script>
+        <!-- Scroll Reveal Animation -->
+        <script>
+        function revealOnScroll() {
+          const elements = document.querySelectorAll('section, .project-card, .skills-card, .timeline-item, .carousel-item, .contact-card');
+          const windowHeight = window.innerHeight;
+          elements.forEach(el => {
+            const top = el.getBoundingClientRect().top;
+            if (top < windowHeight - 60) el.classList.add('visible');
+          });
+        }
+        window.addEventListener('scroll', revealOnScroll);
+        window.addEventListener('DOMContentLoaded', revealOnScroll);
+        </script>
+        <!-- Carousel UI/UX Script -->
+        <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const track = document.querySelector('.carousel-track');
+          const items = Array.from(document.querySelectorAll('.carousel-item'));
+          const btnLeft = document.querySelector('.carousel-btn.left');
+          const btnRight = document.querySelector('.carousel-btn.right');
+          const dotsContainer = document.querySelector('.carousel-dots');
+          let current = 0;
+
+          // Créer les dots
+          items.forEach((item, idx) => {
+            const dot = document.createElement('button');
+            dot.className = 'carousel-dot';
+            dot.setAttribute('aria-label', 'Aller à l\'image ' + (idx+1));
+            dot.addEventListener('click', function() {
+              current = idx;
+              updateCarousel();
+            });
+            dotsContainer.appendChild(dot);
+          });
+          const dots = Array.from(document.querySelectorAll('.carousel-dot'));
+
+          function updateCarousel() {
+            items.forEach((item, idx) => {
+              if(idx === current) {
+                item.classList.add('active');
+              } else {
+                item.classList.remove('active');
+              }
+            });
+            dots.forEach((dot, idx) => {
+              dot.classList.toggle('active', idx === current);
+            });
+          }
+
+          btnLeft.addEventListener('click', function() {
+            current = (current - 1 + items.length) % items.length;
+            updateCarousel();
+          });
+          btnRight.addEventListener('click', function() {
+            current = (current + 1) % items.length;
+            updateCarousel();
+          });
+
+          updateCarousel();
+        });
+        </script>
+
+            <div class="cta">
+                <h3>💡 Prêt à construire votre outil numérique ?</h3>
+                <p>Contactez-moi pour transformer vos idées en solutions concrètes !</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Iba Nicolas Dialo. Tous droits réservés.</p>
+    </footer>
+<footer style="background:rgba(24,24,24,0.92);text-align:center;padding:2rem 0 1.5rem 0;margin-top:2rem;">
+  <div style="margin-bottom:1rem;">
+    <svg width="150" height="38" viewBox="0 0 150 38" fill="none"><rect x="10" y="22" width="90" height="10" rx="5" fill="#232323"/><ellipse cx="25" cy="34" rx="7" ry="4" fill="#ffe600"/><ellipse cx="85" cy="34" rx="7" ry="4" fill="#ffe600"/><rect x="100" y="26" width="40" height="6" rx="3" fill="#ffe600"/><rect x="120" y="18" width="16" height="6" rx="3" fill="#232323"/></svg>
+  </div>
+  <div style="color:#ffe600;font-family:'Montserrat Black',Montserrat,Arial,sans-serif;font-size:1.15rem;letter-spacing:0.04em;text-shadow:0 2px 12px #ffe60044;">Portfolio Gotham &copy; 2025 – Powered by Batman</div>
+  <div style="margin-top:0.5rem;color:#fff;opacity:0.55;font-size:0.95rem;">"It’s not who I am underneath, but what I do that defines me."</div>
+</footer>
+<!-- Bat-Gallery immersive -->
+<section class="bat-gallery" style="background:rgba(18,18,18,0.93);padding:2.5em 0 1.5em 0;text-align:center;">
+  <h2 style="color:#ffe600;font-family:'Montserrat Black',Impact,Arial Black,Arial,sans-serif;text-shadow:0 2px 10px #ffe60044;">Bat-Gallery</h2>
+  <div class="gallery-trophies" style="display:flex;flex-wrap:wrap;justify-content:center;gap:2.2em;">
+    <div class="trophy-card" style="background:#232323;border-radius:18px;padding:1.2em 1.1em;width:220px;box-shadow:0 4px 18px #ffe60022;position:relative;">
+      <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&w=600" alt="UI Dashboard" style="width:100%;border-radius:12px;box-shadow:0 2px 8px #ffe60055;">
+      <div class="badge" style="position:absolute;top:-18px;left:12px;background:#ffe600;color:#232323;padding:0.3em 1em;border-radius:20px;font-weight:700;box-shadow:0 0 8px #ffe60099;"><svg width="16" height="16" viewBox="0 0 22 22" style="vertical-align:middle;"><path d="M2 11 Q7 7 11 11 Q15 15 20 11 Q15 9 11 11 Q7 13 2 11 Z" fill="#232323" stroke="#232323" stroke-width="1.2"/></svg> UI/UX</div>
+      <div style="color:#ffe600;font-weight:600;margin-top:0.7em;">UI Dashboard</div>
+    </div>
+    <div class="trophy-card" style="background:#232323;border-radius:18px;padding:1.2em 1.1em;width:220px;box-shadow:0 4px 18px #ffe60022;position:relative;">
+      <img src="https://images.pexels.com/photos/11035371/pexels-photo-11035371.jpeg?auto=compress&w=600" alt="Mobile app" style="width:100%;border-radius:12px;box-shadow:0 2px 8px #ffe60055;">
+      <div class="badge" style="position:absolute;top:-18px;left:12px;background:#ffe600;color:#232323;padding:0.3em 1em;border-radius:20px;font-weight:700;box-shadow:0 0 8px #ffe60099;"><svg width="16" height="16" viewBox="0 0 22 22" style="vertical-align:middle;"><ellipse cx="11" cy="11" rx="10" ry="8" fill="#232323"/><ellipse cx="11" cy="11" rx="5" ry="3" fill="#ffe600"/></svg> Mobile</div>
+      <div style="color:#ffe600;font-weight:600;margin-top:0.7em;">Mobile App UI</div>
+    </div>
+    <div class="trophy-card" style="background:#232323;border-radius:18px;padding:1.2em 1.1em;width:220px;box-shadow:0 4px 18px #ffe60022;position:relative;">
+      <img src="https://images.pexels.com/photos/6476588/pexels-photo-6476588.jpeg?auto=compress&w=600" alt="Wireframe" style="width:100%;border-radius:12px;box-shadow:0 2px 8px #ffe60055;">
+      <div class="badge" style="position:absolute;top:-18px;left:12px;background:#ffe600;color:#232323;padding:0.3em 1em;border-radius:20px;font-weight:700;box-shadow:0 0 8px #ffe60099;"><svg width="16" height="16" viewBox="0 0 22 22" style="vertical-align:middle;"><ellipse cx="11" cy="11" rx="10" ry="8" fill="#ffe600"/><rect x="8" y="7" width="6" height="8" rx="2" fill="#232323"/></svg> Figma</div>
+      <div style="color:#ffe600;font-weight:600;margin-top:0.7em;">Wireframe Figma</div>
+    </div>
+  </div>
+</section>
+<!-- Skyline Gotham SVG en footer -->
+<div style="width:100vw;overflow:hidden;background:#181818;">
+  <svg width="100%" height="90" viewBox="0 0 1440 90" preserveAspectRatio="none"><rect width="1440" height="90" fill="#181818"/><path d="M0,80 L40,70 L80,80 L120,60 L180,80 L250,55 L320,80 L400,70 L480,85 L560,65 L640,80 L700,60 L800,85 L900,70 L1000,80 L1100,60 L1200,85 L1300,70 L1400,80 L1440,75 L1440,90 L0,90Z" fill="#232323"/><rect x="180" y="40" width="22" height="40" fill="#ffe600"/><rect x="400" y="50" width="18" height="30" fill="#ffe600"/><rect x="700" y="40" width="16" height="45" fill="#ffe600"/><rect x="1100" y="55" width="20" height="35" fill="#ffe600"/></svg>
+</div>
+<script src="gotham.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bat-Signal | Portfolio Gotham</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="batsignal-bg">
+  <nav class="navbar glass-nav">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <svg width="54" height="44" viewBox="0 0 54 44" fill="none"><ellipse cx="27" cy="22" rx="26" ry="20" fill="#181818"/><path d="M6 30 Q27 6 48 30 Q40 19 27 24 Q14 19 6 30 Z" fill="#ffe600" stroke="#232323" stroke-width="2"/><ellipse cx="27" cy="25" rx="5" ry="2.5" fill="#232323"/></svg>
+        <span>Batman Dev</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="gotham-projects.html">Projets</a></li>
+        <li><a href="batcave.html">Batcave</a></li>
+        <li><a href="allies.html">Alliés</a></li>
+        <li><a href="batsignal.html">Bat-Signal</a></li>
+      </ul>
+    </div>
+  </nav>
+  <header class="batsignal-hero">
+    <h1>Lance le Bat-Signal</h1>
+    <p>Un besoin ? Allume le Bat-Signal et contacte-moi !</p>
+  </header>
+  <section class="batsignal-form">
+    <h2>Envoyer un Bat-Signal</h2>
+    <form class="glass-form" autocomplete="off">
+      <label for="name">Nom</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Message</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit" class="cta-main"><span class="bat-icon"><svg width="22" height="22" viewBox="0 0 22 22"><ellipse cx="11" cy="10" rx="10" ry="6" fill="#ffe600" opacity="0.8"/><path d="M8 11 Q12 5 16 11 Q14 8 12 9 Q10 8 8 11 Z" fill="#232323"/></svg></span> Envoyer le Bat-Signal</button>
+    </form>
+    <div class="batsignal-feedback" style="display:none;margin-top:1.2em;color:#ffe600;font-weight:700;font-size:1.1em;">Bat-Signal envoyé ! Merci, je te recontacte très vite.</div>
+  </section>
+  <footer style="background:rgba(24,24,24,0.92);text-align:center;padding:2rem 0 1.5rem 0;margin-top:2rem;">
+    <div style="margin-bottom:1rem;">
+      <svg width="150" height="38" viewBox="0 0 150 38" fill="none"><rect x="10" y="22" width="90" height="10" rx="5" fill="#232323"/><ellipse cx="25" cy="34" rx="7" ry="4" fill="#ffe600"/><ellipse cx="85" cy="34" rx="7" ry="4" fill="#ffe600"/><rect x="100" y="26" width="40" height="6" rx="3" fill="#ffe600"/><rect x="120" y="18" width="16" height="6" rx="3" fill="#232323"/></svg>
+    </div>
+    <div style="color:#ffe600;font-family:'Montserrat Black',Montserrat,Arial,sans-serif;font-size:1.15rem;letter-spacing:0.04em;text-shadow:0 2px 12px #ffe60044;">Portfolio Gotham &copy; 2025 – Powered by Batman</div>
+  </footer>
+  <script>
+    // Bat-Signal animation et feedback
+    document.querySelector('.batsignal-form form').onsubmit = function(e) {
+      e.preventDefault();
+      document.querySelector('.batsignal-feedback').style.display = 'block';
+      setTimeout(()=>{
+        document.querySelector('.batsignal-feedback').style.display = 'none';
+      }, 3500);
+    };
+  </script>
+  <script src="gotham.js"></script>
+</body>
+</html>
